@@ -2,7 +2,7 @@ import uuid
 import json
 from warnings import warn
 
-from werkzeug import ImmutableMultiDict
+from werkzeug.datastructures import ImmutableMultiDict
 
 from plotly import utils
 
